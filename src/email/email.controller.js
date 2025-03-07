@@ -6,8 +6,8 @@ export class EmailController{
         const transporter = nodmailer.createTransport({
             service: "gmail",
             auth: {
-              user: "haren111990@gmail.com", // अपना Gmail ईमेल
-              pass: "rcmm twss fvbv pugx", // ऐप पासवर्ड (नीचे देखें)
+              user: "haren111990@gmail.com", 
+              pass: "rcmm twss fvbv pugx", 
             },
           });
           const mailOptions = {
